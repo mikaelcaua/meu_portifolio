@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss";
+import {Do_Hyeon} from "next/font/google"
+
 
 const config: Config = {
   content: [
@@ -8,6 +10,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        "hyeon":"var(--font_heyon)"
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
