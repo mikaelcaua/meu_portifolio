@@ -11,11 +11,11 @@ interface LayoutProps{
 
 export default function Layout({children}:LayoutProps){
     return(
-        <>
+        <div className="layout">
         <Header></Header>
         {children}
         <Footer></Footer>
-        </>
+        </div>
         
     )
 }
