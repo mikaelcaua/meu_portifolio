@@ -11,7 +11,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily:{
-        "hyeon":"var(--font_heyon)"
+        "hyeon":"var(--font_heyon)",
+        "lato":"var(--font_lato)"
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
