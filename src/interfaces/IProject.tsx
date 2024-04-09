@@ -1,5 +1,5 @@
 export default interface IProject{
-    url:string;
-    src:string;
-    alt:string
+    clone_url:string;
+    name:string;
+    language:string
 }

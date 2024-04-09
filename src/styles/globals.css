@@ -15,7 +15,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
 
 .layout{
     background-image:url(../../public/home_bg.png);
@@ -29,3 +31,7 @@
         background-color: #2b2b2b;
     }
 }
+
+
+
+  

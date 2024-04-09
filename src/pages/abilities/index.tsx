@@ -6,12 +6,12 @@ export default function Abilities(){
        
         <section className="flex flex-initial flex-col max-w-[40rem] min-w-[16rem]">
           <h1 className="font-hyeon text-white text-[2.25rem]">Minhas <strong className="text-[#ff577f]">Habilidades</strong></h1>
-          <p className="font-lato font-normal text-justify pt-8 text-white text-[1.5rem]">Lorem. A, modi?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, quo repudiandae in tempore vitae saepe, error ducimus nesciunt quaerat ad assumenda enim ea nisi. Atque sequi ducimus natus tempora quasi!</p>
+          <p className="font-lato font-normal text-left pt-8 text-white text-[1.5rem]">Experiência com React, Next, SQL e Java Spring Boot, atualmente sou monitor das disciplinas de Cálculo 1, Algoritmos e Estrutura de Dados 1, além disso tenho como hobby a participação em competições de programação.  </p>
 
           <section className="flex flex-col items-center justify-center pt-11 gap-[1.5rem] ">
             
 
-            <Button alt="botão certificados" src={'/button_icons/certificates.png'}href="">
+            <Button alt="botão certificados" src={'/button_icons/certificates.png'} href="https://cursos.alura.com.br/user/mikaelcauasilva1profissional">
             Certificados
             </Button>
 

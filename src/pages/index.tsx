@@ -6,16 +6,18 @@ export default function Home() {
        
         <section className="flex flex-initial flex-col max-w-[30rem] sm:min-w-[16rem]">
           <h1 className="font-hyeon text-white text-[2.25rem]">Mikael <strong className="text-[#ff577f]">Cauã</strong></h1>
-          <p className=" font-normal font-lato text-justify pt-8 text-white text-[1.5rem] ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad dicta quo voluptates voluptas molestias voluptate maxime, a veritatis hic perferendis corrupti quia quas at odio. Magnam, tenetur voluptatum.</p>
+          <p className=" font-normal font-lato pt-8 text-left text-white text-[1.5rem] ">
+            Meu nome é Mikael, atualmente estou cursando Ciência da Computação na UFMA e sou bolsista no programa Jovem Tech, sou apaixonado por matemática, animes, música e gosto bastante de praticar atividades físicas.
+          </p>
 
           <section className="flex flex-col items-center justify-center pt-11 gap-[1.5rem] ">
             <h2 className="text-white font-hyeon text-[1rem] font-bold">Acesse minhas redes:</h2>
 
-            <Button alt="botão git" src={'/button_icons/github.png'}href="">
+            <Button alt="botão git" src={'/button_icons/github.png'}href="https://github.com/mikaelcaua">
             Github
             </Button>
 
-            <Button alt="botão Linedin" src={'/button_icons/linkedin.png'}href="">
+            <Button alt="botão Linedin" src={'/button_icons/linkedin.png'}href="https://br.linkedin.com/in/mikael-cau%C3%A3-silva">
             Linkedin
             </Button>
 
