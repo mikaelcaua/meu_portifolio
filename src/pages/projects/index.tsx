@@ -28,7 +28,7 @@ export default function Projectos(){
 
             <section className=" flex flex-wrap  gap-10 sm:pt-14 w-[100%] items-center justify-center">
                 {projects.map((p:IProject) => 
-                    <Project clone_url={p.clone_url} name={p.name} language={p.language}></Project>
+                    <Project clone_url={p.clone_url} name={p.name} language={p.language} key={p.name}></Project>
                 )}
             </section>
             
