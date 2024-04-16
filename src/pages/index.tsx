@@ -24,7 +24,7 @@ export default function Home() {
           </section>
         </section>
         
-        <img src="/my_photo.png" alt="Foto de Mikael" className="h-[100%] w-[100%] sm:w-[60%] min-h-[20rem] rounded-[0.5rem] max-h-[40rem] max-w-[30rem]"/>
+        <img src="/my_photo.jpeg" alt="Foto de Mikael" className="h-[100%] w-[100%] sm:w-[60%] min-h-[20rem] rounded-[0.5rem] max-h-[40rem] max-w-[30rem]"/>
     </main>
   );
 }
